@@ -1,6 +1,6 @@
-# Dijkstra Path
+# PathLab
 
-A simple visualization of Dijkstra's shortest path-finding algorithm.
+An interactive pathfinding visualization lab for exploring how algorithms such as Dijkstra, A*, BFS, and Greedy Best-First Search navigate configurable grids, weighted terrain, and generated mazes.
 
 ## How to Use
 
@@ -11,22 +11,30 @@ A simple visualization of Dijkstra's shortest path-finding algorithm.
    - **macOS/Linux**: Python 3 may already be installed. Verify by running `python3 --version` in a terminal.
 3. Verify the installation:
    ```bash
-   python --version OR python3 --version
+   python --version
+   ```
+   or:
+   ```bash
+   python3 --version
+   ```
 
 ### Step 2: Download the Application
-1. Click the green Code button at the top of this repository
-2. Select Download ZIP
+1. Click the green **Code** button at the top of this repository.
+2. Select **Download ZIP**.
 3. Extract the ZIP file to a folder of your choice.
 4. Alternatively, clone the repository using Git:
    ```bash
-   git clone https://github.com/lee4293/dijkstra-path.git  
-   cd dijkstra-path
+   git clone https://github.com/lee4293/pathlab.git
+   cd pathlab
+   ```
 
 ### Step 3: Run the Application
-1. Open a terminal or command prompt in the folder you downloaded the files into
-2. Run the application using the following command
-
+1. Open a terminal or command prompt in the folder you downloaded the files into.
+2. Run the application using one of the following commands:
    ```bash
-   python DijkstraPath.py OR python3 DijkstraPath.py
-
-   
+   python PathLab.py
+   ```
+   or:
+   ```bash
+   python3 PathLab.py
+   ```
